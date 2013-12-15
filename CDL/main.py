@@ -5,7 +5,7 @@ import os
 import sys
 
 
-__AUTHOR__ = "Catalyst"
+__AUTHOR__ = "glob"
 __LICENSE__ = "GNU GPL"
 __DOCSTRING__ = """
 
