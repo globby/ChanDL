@@ -7,7 +7,7 @@ from ttk import *
 from CDL.main import *
 
 root = Tk()
-root.geometry("400x230")  #176
+root.geometry("400x225")  #176
 root.title("4Chan Thread Downloader")
 
 Label(root,text="Download Location:  ").place(x=0,y=0)
@@ -16,7 +16,7 @@ location = StringVar()
 dlloc = Entry(root,width=29,textvariable=location)
 dlloc.place(x=132, y=0)
 change = lambda: location.set(tkFileDialog.askdirectory())
-Button(root,text="...",width=2,command=change).place(x=370,y=0)
+Button(root,text="...",width=2,command=change).place(x=372,y=0)
 
 minpics = IntVar()
 mpics = Checkbutton(root, text="Minimum Pictures  ", variable=minpics)
